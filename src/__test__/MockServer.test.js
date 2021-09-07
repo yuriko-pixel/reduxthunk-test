@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 import { rest } from "msw";
 import { setupServer } from "msw/node";
 import { configureStore } from "@reduxjs/toolkit";
-import { rootReducer } from "../features/fetchSlice";
+import  rootReducer  from "../features/fetchSlice";
 import { Provider } from "react-redux";
 import App from '../App'
 
