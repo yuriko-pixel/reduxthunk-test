@@ -36,5 +36,5 @@ const fetchSlice = createSlice({
 })
 
 export default fetchSlice.reducer
-export const rootReducer = combineReducers({fetchData: fetchSlice.reducer})
+// export const rootReducer = combineReducers({fetchData: fetchSlice.reducer})
 export const selectData = state => state.username
